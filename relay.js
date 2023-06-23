@@ -9,7 +9,7 @@ import { identifyService } from 'libp2p/identify'
 const server = await createLibp2p({
     addresses: {
         // listen: ['/ip4/127.0.0.1/tcp/0/ws']
-        listen: ['/ip4/0.0.0.0/tcp/0/ws']
+        listen: ['/ip4/0.0.0.0/tcp/3000/ws']
     },
     transports: [
         webSockets({
